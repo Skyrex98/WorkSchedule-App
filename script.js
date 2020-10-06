@@ -157,6 +157,7 @@ function testTime() {
         $(".form9").addClass("present");
     };
 }
+testTime();
 //Save each form button on click/per row 
 $(".saveBtn").click(function () {
     event.preventDefault();
